@@ -21,6 +21,7 @@ result = task_1()
 print('Результат функции:', result)
 
 
+
 #Задание 2
 def task_2() -> list[int]:
     z: list[int] = [1, 2, 3, 5, 8, 13, 21] #Fibonacci sequence
