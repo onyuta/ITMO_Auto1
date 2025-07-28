@@ -1,24 +1,24 @@
 # #Задание 1
-# def task_1() -> :
-#     nomer: int = 120
-#     temp: float = 36.7
-#     tekst: str = "С Днем дня!"
-#     characters: list[str] = ["Edward", "Bella"]
-#     pravda: bool = True
-# print(nomer, 'относится к типу', type(nomer))
-# print(temp, 'относится к типу', type(temp))
-# print(tekst, 'относится к типу', type(tekst))
-# print(characters, 'относится к типу', type(characters))
-# print(pravda, 'относится к типу', type(pravda))
-#
-# return {'nomer': nomer,
-#         'temp': temp,
-#         'tekst': tekst,
-#         'characters': characters,
-#         'pravda': pravda,
-#         }
-# result = task_1()
-# print('Результат функции:', result)
+def task_1():
+    nomer: int = 120
+    temp: float = 36.7
+    tekst: str = "С Днем дня!"
+    characters: list[str] = ["Edward", "Bella"]
+    pravda: bool = True
+    print(nomer, 'относится к типу', type(nomer))
+    print(temp, 'относится к типу', type(temp))
+    print(tekst, 'относится к типу', type(tekst))
+    print(characters, 'относится к типу', type(characters))
+    print(pravda, 'относится к типу', type(pravda))
+    return {
+        'nomer': nomer,
+        'temp': temp,
+        'tekst': tekst,
+        'characters': characters,
+        'pravda': pravda,
+        }
+result = task_1()
+print('Результат функции:', result)
 
 
 #Задание 2
