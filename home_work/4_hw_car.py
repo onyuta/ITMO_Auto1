@@ -38,4 +38,3 @@ random_car.stop_car()
 random_car.set_year(2025)
 random_car.set_type('cabriolet')
 random_car.set_color('pink')
-
