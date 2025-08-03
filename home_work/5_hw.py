@@ -1,12 +1,15 @@
-from selenium.webdriver.common.by import By
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome()
-driver.get('https://www.saucedemo.com/')
-# Поиск элементов
-username_field = driver.find_element(By.ID, 'user-name')
-password_field = driver.find_element(By.ID, 'password')
-submit_button = driver.find_element(By.ID, 'login-button')
+def find_elements_on_page():
+    driver = webdriver.Chrome()
+    driver.get("https://www.saucedemo.com/")
 
-if username_field and password_field and submit_button:
+    username_field = driver.find_element(By.ID, 'user-name')
+    password_field = driver.find_element(By.ID, 'password')
+    submit_button = driver.find_element(By.ID, 'login-button')
+
     print('Элементы найдены')
+    return True
+
+find_elements_on_page()
